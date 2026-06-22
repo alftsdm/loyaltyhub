@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: loyalty-hub-product-map
+    env: python
+    plan: starter
+    buildCommand: ""
+    startCommand: "HOST=0.0.0.0 python3 server.py"
+    healthCheckPath: /healthz
+    envVars:
+      - key: LOYALTY_HUB_PASSWORD
+        sync: false
+      - key: LOYALTY_HUB_SECRET
+        generateValue: true
