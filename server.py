@@ -45,12 +45,15 @@ LOGIN_PAGE = """<!doctype html>
     <title>Loyalty Hub Product Map</title>
     <style>
       :root {
-        color-scheme: dark;
-        --bg: #071c2a;
-        --panel: #0a2333;
+        color-scheme: light;
+        --bg: #f4f6f8;
+        --panel: #ffffff;
+        --ink: #172033;
+        --accent: #0a2333;
         --red: #fa4a3d;
-        --muted: #97999d;
-        --line: rgba(222, 224, 227, 0.22);
+        --muted: #637083;
+        --line: #d8dee8;
+        --shadow: 0 14px 36px rgba(23, 32, 51, 0.10);
       }
       * { box-sizing: border-box; }
       body {
@@ -59,10 +62,9 @@ LOGIN_PAGE = """<!doctype html>
         display: grid;
         place-items: center;
         background:
-          radial-gradient(circle at 20% 8%, rgba(250, 74, 61, 0.16), transparent 30%),
           var(--bg);
-        color: #fff;
-        font-family: Poppins, "Noto Sans SC", "Avenir Next", sans-serif;
+        color: var(--ink);
+        font-family: Inter, "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
       }
       main {
         width: min(440px, calc(100vw - 32px));
@@ -70,7 +72,7 @@ LOGIN_PAGE = """<!doctype html>
         border-radius: 8px;
         background: var(--panel);
         padding: 28px;
-        box-shadow: 0 28px 70px rgba(0, 0, 0, 0.32);
+        box-shadow: var(--shadow);
       }
       .mark {
         position: relative;
@@ -79,8 +81,9 @@ LOGIN_PAGE = """<!doctype html>
         width: 48px;
         height: 48px;
         margin-bottom: 20px;
-        background: #fff;
-        color: var(--panel);
+        border-radius: 8px;
+        background: var(--accent);
+        color: #fff;
         font-weight: 900;
       }
       .mark::after {
@@ -95,7 +98,7 @@ LOGIN_PAGE = """<!doctype html>
       }
       h1 {
         margin: 0 0 8px;
-        color: var(--red);
+        color: var(--ink);
         font-size: 32px;
         line-height: 1.05;
       }
@@ -114,22 +117,22 @@ LOGIN_PAGE = """<!doctype html>
         width: 100%;
         border: 1px solid var(--line);
         border-radius: 8px;
-        background: rgba(255, 255, 255, 0.06);
-        color: #fff;
+        background: #fff;
+        color: var(--ink);
         padding: 12px;
         font: inherit;
         outline: none;
       }
       input:focus {
-        border-color: var(--red);
-        box-shadow: 0 0 0 3px rgba(250, 74, 61, 0.18);
+        border-color: var(--accent);
+        box-shadow: 0 0 0 3px rgba(10, 35, 51, 0.12);
       }
       button {
         width: 100%;
         margin-top: 14px;
         border: 0;
         border-radius: 8px;
-        background: var(--red);
+        background: var(--accent);
         color: #fff;
         padding: 12px;
         font: inherit;
