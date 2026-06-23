@@ -66,6 +66,7 @@ const i18n = {
       web: "白标 Web",
       api: "通用 API",
       admin: "Admin Portal",
+      b2b: "B2B Portal",
     },
     shortChannel: {
       app: "DP App",
@@ -73,6 +74,7 @@ const i18n = {
       web: "白标 Web",
       api: "API",
       admin: "Admin",
+      b2b: "B2B",
     },
     seriesName: {
       "Supply Chain Products": "供应链产品",
@@ -147,6 +149,7 @@ const i18n = {
       web: "White label Web",
       api: "Generic API",
       admin: "Admin Portal",
+      b2b: "B2B Portal",
     },
     shortChannel: {
       app: "DP App",
@@ -154,6 +157,7 @@ const i18n = {
       web: "WL Web",
       api: "API",
       admin: "Admin",
+      b2b: "B2B",
     },
     seriesName: {},
     hierarchyName: {},

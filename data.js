@@ -1,27 +1,31 @@
 window.LOYALTY_DATA = {
-  "sourceFile": "/Users/steven/Downloads/LoyaltyHub Product Map.xlsx",
+  "sourceFile": "/Users/steven/Desktop/LoyaltyHub Product Map 0623.xlsx",
   "sheet": "Loyalty Hub Products Map",
-  "updated": "2026-06-22",
+  "updated": "2026-06-23",
   "hierarchy": [
     {
       "level": "L1",
       "name": "Supply Chain product",
-      "raw": "L1:Supply Chain product"
+      "description": "E.g. lounge, limo, fast track, etc",
+      "raw": "L1:Supply Chain product:E.g. lounge, limo, fast track, etc"
     },
     {
       "level": "L2",
       "name": "Benefit management",
-      "raw": "L2:Benefit management"
+      "description": "E.g. swap entitlement, split entitlement, etc",
+      "raw": "L2:Benefit management:E.g. swap entitlement, split entitlement, etc"
     },
     {
       "level": "L3",
       "name": "Loyalty marketing",
-      "raw": "L3:Loyalty marketing"
+      "description": "Focus on the marketing campaign or revenue burning of supply chain products (E.g. action based rewards, marketing campaign tools, benefit bundle, etc)",
+      "raw": "L3:Loyalty marketing:Focus on the marketing campaign or revenue burning of supply chain products (E.g. action based rewards, marketing campaign tools, benefit bundle, etc)"
     },
     {
       "level": "L4",
-      "name": "User Engagemet—— AI & Data-Powered User Interest & Personalization Insight Capability",
-      "raw": "L4:User Engagemet—— AI & Data-Powered User Interest & Personalization Insight Capability"
+      "name": "User Engagemet—— Focus on end-user interaction, activation and service (E.g. Digital Concierge, AI trip planner, etc)",
+      "description": "User Engagemet—— Focus on end-user interaction, activation and service (E.g. Digital Concierge, AI trip planner, etc)",
+      "raw": "L4:User Engagemet—— Focus on end-user interaction, activation and service (E.g. Digital Concierge, AI trip planner, etc)"
     }
   ],
   "channels": [
@@ -44,6 +48,10 @@ window.LOYALTY_DATA = {
     {
       "key": "admin",
       "label": "Admin Portal"
+    },
+    {
+      "key": "b2b",
+      "label": "B2B Portal"
     }
   ],
   "products": [
@@ -54,7 +62,7 @@ window.LOYALTY_DATA = {
       "series": "Supply Chain Products",
       "seriesRaw": "L1:Supply Chain Products",
       "sku": "Lounge",
-      "description": "Lounge description",
+      "description": "Walk-in lounge access where users present their credentials on-site at the lounge for immediate entry — no advance booking required.",
       "playbook": "",
       "playbookLinks": [],
       "support": [
@@ -87,6 +95,12 @@ window.LOYALTY_DATA = {
           "label": "Admin Portal",
           "value": "No plan",
           "type": "no-plan"
+        },
+        {
+          "key": "b2b",
+          "label": "B2B Portal",
+          "value": "Y",
+          "type": "supported"
         }
       ],
       "demo": "",
@@ -99,7 +113,7 @@ window.LOYALTY_DATA = {
       "series": "Supply Chain Products",
       "seriesRaw": "L1:Supply Chain Products",
       "sku": "Lounge Prebooking",
-      "description": "",
+      "description": "Advance lounge reservation that guarantees availability during peak hours, enabling capacity management and traveler certainty.",
       "playbook": "",
       "playbookLinks": [],
       "support": [
@@ -130,6 +144,12 @@ window.LOYALTY_DATA = {
         {
           "key": "admin",
           "label": "Admin Portal",
+          "value": "No plan",
+          "type": "no-plan"
+        },
+        {
+          "key": "b2b",
+          "label": "B2B Portal",
           "value": "No plan",
           "type": "no-plan"
         }
@@ -144,7 +164,7 @@ window.LOYALTY_DATA = {
       "series": "Supply Chain Products",
       "seriesRaw": "L1:Supply Chain Products",
       "sku": "Premium Lounge",
-      "description": "",
+      "description": "DragonPass's flagship lounge product line, delivering premium lounge experiences to high-value members",
       "playbook": "",
       "playbookLinks": [],
       "support": [
@@ -169,14 +189,20 @@ window.LOYALTY_DATA = {
         {
           "key": "api",
           "label": "Generic API",
-          "value": "",
-          "type": "unknown"
+          "value": "Y",
+          "type": "supported"
         },
         {
           "key": "admin",
           "label": "Admin Portal",
-          "value": "",
-          "type": "unknown"
+          "value": "No plan",
+          "type": "no-plan"
+        },
+        {
+          "key": "b2b",
+          "label": "B2B Portal",
+          "value": "No plan",
+          "type": "no-plan"
         }
       ],
       "demo": "",
@@ -189,39 +215,45 @@ window.LOYALTY_DATA = {
       "series": "Supply Chain Products",
       "seriesRaw": "L1:Supply Chain Products",
       "sku": "Spa",
-      "description": "",
+      "description": "Airport spa and massage services offered as a premium sub-type within the lounge category, providing travelers with a relaxing wellness experience during their wait.",
       "playbook": "",
       "playbookLinks": [],
       "support": [
         {
           "key": "app",
           "label": "Dragonpass App",
-          "value": "",
-          "type": "unknown"
+          "value": "No plan",
+          "type": "no-plan"
         },
         {
           "key": "h5",
           "label": "White label H5",
-          "value": "",
-          "type": "unknown"
+          "value": "No plan",
+          "type": "no-plan"
         },
         {
           "key": "web",
           "label": "White label Web",
-          "value": "",
-          "type": "unknown"
+          "value": "No plan",
+          "type": "no-plan"
         },
         {
           "key": "api",
           "label": "Generic API",
-          "value": "",
-          "type": "unknown"
+          "value": "No plan",
+          "type": "no-plan"
         },
         {
           "key": "admin",
           "label": "Admin Portal",
-          "value": "",
-          "type": "unknown"
+          "value": "No plan",
+          "type": "no-plan"
+        },
+        {
+          "key": "b2b",
+          "label": "B2B Portal",
+          "value": "No plan",
+          "type": "no-plan"
         }
       ],
       "demo": "",
@@ -234,39 +266,45 @@ window.LOYALTY_DATA = {
       "series": "Supply Chain Products",
       "seriesRaw": "L1:Supply Chain Products",
       "sku": "Retail",
-      "description": "",
+      "description": "Airport retail product display and shopping category covering travel-related lightweight consumer goods — travelers present their DragonPass membership code to receive shopping discounts.",
       "playbook": "",
       "playbookLinks": [],
       "support": [
         {
           "key": "app",
           "label": "Dragonpass App",
-          "value": "",
-          "type": "unknown"
+          "value": "No plan",
+          "type": "no-plan"
         },
         {
           "key": "h5",
           "label": "White label H5",
-          "value": "",
-          "type": "unknown"
+          "value": "No plan",
+          "type": "no-plan"
         },
         {
           "key": "web",
           "label": "White label Web",
-          "value": "",
-          "type": "unknown"
+          "value": "No plan",
+          "type": "no-plan"
         },
         {
           "key": "api",
           "label": "Generic API",
-          "value": "",
-          "type": "unknown"
+          "value": "No plan",
+          "type": "no-plan"
         },
         {
           "key": "admin",
           "label": "Admin Portal",
-          "value": "",
-          "type": "unknown"
+          "value": "No plan",
+          "type": "no-plan"
+        },
+        {
+          "key": "b2b",
+          "label": "B2B Portal",
+          "value": "No plan",
+          "type": "no-plan"
         }
       ],
       "demo": "",
@@ -279,7 +317,7 @@ window.LOYALTY_DATA = {
       "series": "Supply Chain Products",
       "seriesRaw": "L1:Supply Chain Products",
       "sku": "Fast Track",
-      "description": "",
+      "description": "Fast Track helps travelers bypass long and sluggish airport security lines, easing their journey and enhancing the travel experience from start to finish.",
       "playbook": "",
       "playbookLinks": [],
       "support": [
@@ -312,6 +350,12 @@ window.LOYALTY_DATA = {
           "label": "Admin Portal",
           "value": "No plan",
           "type": "no-plan"
+        },
+        {
+          "key": "b2b",
+          "label": "B2B Portal",
+          "value": "Y",
+          "type": "supported"
         }
       ],
       "demo": "",
@@ -331,32 +375,38 @@ window.LOYALTY_DATA = {
         {
           "key": "app",
           "label": "Dragonpass App",
-          "value": "",
-          "type": "unknown"
+          "value": "No plan",
+          "type": "no-plan"
         },
         {
           "key": "h5",
           "label": "White label H5",
-          "value": "",
-          "type": "unknown"
+          "value": "2026Q3",
+          "type": "planned"
         },
         {
           "key": "web",
           "label": "White label Web",
-          "value": "",
-          "type": "unknown"
+          "value": "No plan",
+          "type": "no-plan"
         },
         {
           "key": "api",
           "label": "Generic API",
-          "value": "",
-          "type": "unknown"
+          "value": "No plan",
+          "type": "no-plan"
         },
         {
           "key": "admin",
           "label": "Admin Portal",
-          "value": "",
-          "type": "unknown"
+          "value": "No plan",
+          "type": "no-plan"
+        },
+        {
+          "key": "b2b",
+          "label": "B2B Portal",
+          "value": "No plan",
+          "type": "no-plan"
         }
       ],
       "demo": "",
@@ -368,53 +418,8 @@ window.LOYALTY_DATA = {
       "level": "L1",
       "series": "Supply Chain Products",
       "seriesRaw": "L1:Supply Chain Products",
-      "sku": "Retail",
-      "description": "",
-      "playbook": "",
-      "playbookLinks": [],
-      "support": [
-        {
-          "key": "app",
-          "label": "Dragonpass App",
-          "value": "",
-          "type": "unknown"
-        },
-        {
-          "key": "h5",
-          "label": "White label H5",
-          "value": "",
-          "type": "unknown"
-        },
-        {
-          "key": "web",
-          "label": "White label Web",
-          "value": "",
-          "type": "unknown"
-        },
-        {
-          "key": "api",
-          "label": "Generic API",
-          "value": "",
-          "type": "unknown"
-        },
-        {
-          "key": "admin",
-          "label": "Admin Portal",
-          "value": "",
-          "type": "unknown"
-        }
-      ],
-      "demo": "",
-      "case": ""
-    },
-    {
-      "id": "row-11",
-      "row": 11,
-      "level": "L1",
-      "series": "Supply Chain Products",
-      "seriesRaw": "L1:Supply Chain Products",
       "sku": "Set Meal",
-      "description": "",
+      "description": "Providing Global restaurant set meal. Cardholders can redeem their DragonPass membership to enjoy one set meal provided by the restaurant.",
       "playbook": "",
       "playbookLinks": [],
       "support": [
@@ -447,19 +452,25 @@ window.LOYALTY_DATA = {
           "label": "Admin Portal",
           "value": "No plan",
           "type": "no-plan"
+        },
+        {
+          "key": "b2b",
+          "label": "B2B Portal",
+          "value": "2026Q4",
+          "type": "planned"
         }
       ],
       "demo": "",
       "case": ""
     },
     {
-      "id": "row-12",
-      "row": 12,
+      "id": "row-11",
+      "row": 11,
       "level": "L1",
       "series": "Supply Chain Products",
       "seriesRaw": "L1:Supply Chain Products",
       "sku": "MPV",
-      "description": "",
+      "description": "Global restaurant coupon. It provides cash rebates for cardholders. After redeeming the DragonPass membership, a fixed amount can be deducted from the total bill.",
       "playbook": "",
       "playbookLinks": [],
       "support": [
@@ -490,6 +501,63 @@ window.LOYALTY_DATA = {
         {
           "key": "admin",
           "label": "Admin Portal",
+          "value": "No plan",
+          "type": "no-plan"
+        },
+        {
+          "key": "b2b",
+          "label": "B2B Portal",
+          "value": "No plan",
+          "type": "no-plan"
+        }
+      ],
+      "demo": "",
+      "case": ""
+    },
+    {
+      "id": "row-12",
+      "row": 12,
+      "level": "L1",
+      "series": "Supply Chain Products",
+      "seriesRaw": "L1:Supply Chain Products",
+      "sku": "Dinning Discount",
+      "description": "Global dining discount. It offers cardholders a fixed discount on restaurant bills.",
+      "playbook": "",
+      "playbookLinks": [],
+      "support": [
+        {
+          "key": "app",
+          "label": "Dragonpass App",
+          "value": "Y",
+          "type": "supported"
+        },
+        {
+          "key": "h5",
+          "label": "White label H5",
+          "value": "No plan",
+          "type": "no-plan"
+        },
+        {
+          "key": "web",
+          "label": "White label Web",
+          "value": "No plan",
+          "type": "no-plan"
+        },
+        {
+          "key": "api",
+          "label": "Generic API",
+          "value": "No plan",
+          "type": "no-plan"
+        },
+        {
+          "key": "admin",
+          "label": "Admin Portal",
+          "value": "No plan",
+          "type": "no-plan"
+        },
+        {
+          "key": "b2b",
+          "label": "B2B Portal",
           "value": "No plan",
           "type": "no-plan"
         }
@@ -504,7 +572,7 @@ window.LOYALTY_DATA = {
       "series": "Supply Chain Products",
       "seriesRaw": "L1:Supply Chain Products",
       "sku": "Airport Transport",
-      "description": "",
+      "description": "Providing transfers between airport stations and and city locations.",
       "playbook": "",
       "playbookLinks": [],
       "support": [
@@ -537,6 +605,12 @@ window.LOYALTY_DATA = {
           "label": "Admin Portal",
           "value": "No plan",
           "type": "no-plan"
+        },
+        {
+          "key": "b2b",
+          "label": "B2B Portal",
+          "value": "2026Q3",
+          "type": "planned"
         }
       ],
       "demo": "",
@@ -549,7 +623,7 @@ window.LOYALTY_DATA = {
       "series": "Supply Chain Products",
       "seriesRaw": "L1:Supply Chain Products",
       "sku": "Esim",
-      "description": "",
+      "description": "Global eSIM purchasing. Users can buy eSIM plans via Dragon Pass entitlement or PAYG to get roaming data plan in specific countries or regions.",
       "playbook": "",
       "playbookLinks": [],
       "support": [
@@ -580,6 +654,12 @@ window.LOYALTY_DATA = {
         {
           "key": "admin",
           "label": "Admin Portal",
+          "value": "No plan",
+          "type": "no-plan"
+        },
+        {
+          "key": "b2b",
+          "label": "B2B Portal",
           "value": "No plan",
           "type": "no-plan"
         }
@@ -594,7 +674,7 @@ window.LOYALTY_DATA = {
       "series": "Supply Chain Products",
       "seriesRaw": "L1:Supply Chain Products",
       "sku": "H&W-Fitness",
-      "description": "",
+      "description": "Providing users with gym class reservations and one-time gym access. Users may book fitness class through Dragon Pass membership benefits or PAYG",
       "playbook": "",
       "playbookLinks": [],
       "support": [
@@ -625,6 +705,12 @@ window.LOYALTY_DATA = {
         {
           "key": "admin",
           "label": "Admin Portal",
+          "value": "No plan",
+          "type": "no-plan"
+        },
+        {
+          "key": "b2b",
+          "label": "B2B Portal",
           "value": "No plan",
           "type": "no-plan"
         }
@@ -672,6 +758,12 @@ window.LOYALTY_DATA = {
           "label": "Admin Portal",
           "value": "No plan",
           "type": "no-plan"
+        },
+        {
+          "key": "b2b",
+          "label": "B2B Portal",
+          "value": "No plan",
+          "type": "no-plan"
         }
       ],
       "demo": "",
@@ -715,6 +807,12 @@ window.LOYALTY_DATA = {
         {
           "key": "admin",
           "label": "Admin Portal",
+          "value": "No plan",
+          "type": "no-plan"
+        },
+        {
+          "key": "b2b",
+          "label": "B2B Portal",
           "value": "No plan",
           "type": "no-plan"
         }
@@ -762,6 +860,12 @@ window.LOYALTY_DATA = {
           "label": "Admin Portal",
           "value": "No plan",
           "type": "no-plan"
+        },
+        {
+          "key": "b2b",
+          "label": "B2B Portal",
+          "value": "No plan",
+          "type": "no-plan"
         }
       ],
       "demo": "",
@@ -807,6 +911,12 @@ window.LOYALTY_DATA = {
           "label": "Admin Portal",
           "value": "No plan",
           "type": "no-plan"
+        },
+        {
+          "key": "b2b",
+          "label": "B2B Portal",
+          "value": "No plan",
+          "type": "no-plan"
         }
       ],
       "demo": "",
@@ -850,6 +960,12 @@ window.LOYALTY_DATA = {
         {
           "key": "admin",
           "label": "Admin Portal",
+          "value": "No plan",
+          "type": "no-plan"
+        },
+        {
+          "key": "b2b",
+          "label": "B2B Portal",
           "value": "No plan",
           "type": "no-plan"
         }
@@ -900,6 +1016,12 @@ window.LOYALTY_DATA = {
           "label": "Admin Portal",
           "value": "",
           "type": "unknown"
+        },
+        {
+          "key": "b2b",
+          "label": "B2B Portal",
+          "value": "No plan",
+          "type": "no-plan"
         }
       ],
       "demo": "",
@@ -948,6 +1070,12 @@ window.LOYALTY_DATA = {
           "label": "Admin Portal",
           "value": "",
           "type": "unknown"
+        },
+        {
+          "key": "b2b",
+          "label": "B2B Portal",
+          "value": "No plan",
+          "type": "no-plan"
         }
       ],
       "demo": "",
@@ -996,6 +1124,12 @@ window.LOYALTY_DATA = {
           "label": "Admin Portal",
           "value": "",
           "type": "unknown"
+        },
+        {
+          "key": "b2b",
+          "label": "B2B Portal",
+          "value": "No plan",
+          "type": "no-plan"
         }
       ],
       "demo": "",
@@ -1044,6 +1178,12 @@ window.LOYALTY_DATA = {
           "label": "Admin Portal",
           "value": "",
           "type": "unknown"
+        },
+        {
+          "key": "b2b",
+          "label": "B2B Portal",
+          "value": "No plan",
+          "type": "no-plan"
         }
       ],
       "demo": "",
@@ -1092,6 +1232,12 @@ window.LOYALTY_DATA = {
           "label": "Admin Portal",
           "value": "",
           "type": "unknown"
+        },
+        {
+          "key": "b2b",
+          "label": "B2B Portal",
+          "value": "No plan",
+          "type": "no-plan"
         }
       ],
       "demo": "",
@@ -1139,6 +1285,12 @@ window.LOYALTY_DATA = {
           "label": "Admin Portal",
           "value": "",
           "type": "unknown"
+        },
+        {
+          "key": "b2b",
+          "label": "B2B Portal",
+          "value": "No plan",
+          "type": "no-plan"
         }
       ],
       "demo": "",
@@ -1186,6 +1338,12 @@ window.LOYALTY_DATA = {
           "label": "Admin Portal",
           "value": "",
           "type": "unknown"
+        },
+        {
+          "key": "b2b",
+          "label": "B2B Portal",
+          "value": "No plan",
+          "type": "no-plan"
         }
       ],
       "demo": "",
@@ -1213,8 +1371,8 @@ window.LOYALTY_DATA = {
         {
           "key": "h5",
           "label": "White label H5",
-          "value": "",
-          "type": "unknown"
+          "value": "Y",
+          "type": "supported"
         },
         {
           "key": "web",
@@ -1233,6 +1391,12 @@ window.LOYALTY_DATA = {
           "label": "Admin Portal",
           "value": "",
           "type": "unknown"
+        },
+        {
+          "key": "b2b",
+          "label": "B2B Portal",
+          "value": "Y",
+          "type": "supported"
         }
       ],
       "demo": "",
@@ -1278,6 +1442,12 @@ window.LOYALTY_DATA = {
           "label": "Admin Portal",
           "value": "",
           "type": "unknown"
+        },
+        {
+          "key": "b2b",
+          "label": "B2B Portal",
+          "value": "No plan",
+          "type": "no-plan"
         }
       ],
       "demo": "",
@@ -1325,6 +1495,12 @@ window.LOYALTY_DATA = {
           "label": "Admin Portal",
           "value": "",
           "type": "unknown"
+        },
+        {
+          "key": "b2b",
+          "label": "B2B Portal",
+          "value": "Y",
+          "type": "supported"
         }
       ],
       "demo": "",
@@ -1368,6 +1544,12 @@ window.LOYALTY_DATA = {
         {
           "key": "admin",
           "label": "Admin Portal",
+          "value": "No plan",
+          "type": "no-plan"
+        },
+        {
+          "key": "b2b",
+          "label": "B2B Portal",
           "value": "No plan",
           "type": "no-plan"
         }
@@ -1415,6 +1597,12 @@ window.LOYALTY_DATA = {
           "label": "Admin Portal",
           "value": "No plan",
           "type": "no-plan"
+        },
+        {
+          "key": "b2b",
+          "label": "B2B Portal",
+          "value": "No plan",
+          "type": "no-plan"
         }
       ],
       "demo": "",
@@ -1460,6 +1648,12 @@ window.LOYALTY_DATA = {
           "label": "Admin Portal",
           "value": "No plan",
           "type": "no-plan"
+        },
+        {
+          "key": "b2b",
+          "label": "B2B Portal",
+          "value": "No plan",
+          "type": "no-plan"
         }
       ],
       "demo": "",
@@ -1472,7 +1666,7 @@ window.LOYALTY_DATA = {
       "series": "Loyalty Marketing",
       "seriesRaw": "L3:Loyalty Marketing",
       "sku": "Campaigns Management",
-      "description": "产品定义需要再清晰一点：\nTrigger campaigns from onboarding, repeat purchase, inactivity, tier movement, milestones, or expiring balances.\nPair audience, reward logic, template, and validity window in one governed workflow.",
+      "description": "Trigger campaigns from onboarding, repeat purchase, inactivity, tier movement, milestones, or expiring balances.\nPair audience, reward logic, template, and validity window in one governed workflow.",
       "playbook": "Campaign type:\nSend Promotion、Send Reward\n1:Audience / Segementation\n2:Trigger(Onboarding、Anniversary / Birthday、Points or benefit Expiration)\n3:Reward\n4:Communication (Email、SMS、Push Notification)",
       "playbookLinks": [],
       "support": [
@@ -1505,6 +1699,12 @@ window.LOYALTY_DATA = {
           "label": "Admin Portal",
           "value": "",
           "type": "unknown"
+        },
+        {
+          "key": "b2b",
+          "label": "B2B Portal",
+          "value": "No plan",
+          "type": "no-plan"
         }
       ],
       "demo": "",
@@ -1550,6 +1750,12 @@ window.LOYALTY_DATA = {
           "label": "Admin Portal",
           "value": "",
           "type": "unknown"
+        },
+        {
+          "key": "b2b",
+          "label": "B2B Portal",
+          "value": "No plan",
+          "type": "no-plan"
         }
       ],
       "demo": "",
@@ -1595,6 +1801,12 @@ window.LOYALTY_DATA = {
           "label": "Admin Portal",
           "value": "",
           "type": "unknown"
+        },
+        {
+          "key": "b2b",
+          "label": "B2B Portal",
+          "value": "No plan",
+          "type": "no-plan"
         }
       ],
       "demo": "",
@@ -1607,7 +1819,7 @@ window.LOYALTY_DATA = {
       "series": "User Engagement",
       "seriesRaw": "L4:User Engagement",
       "sku": "BenefitQ",
-      "description": "",
+      "description": "AI-powered benefits distribution engine. Designed for B2B membership benefits management, BenefitQ addresses the core challenge: how to match vast inventories of benefits to the right people with precision. Leveraging user profiles, behavioral preferences, and consumption contexts, it applies AI for intelligent benefit recommendation, dynamic pricing, and redemption guidance — ensuring every benefit delivers maximum value, boosting member engagement and utilization rates.",
       "playbook": "",
       "playbookLinks": [],
       "support": [
@@ -1640,6 +1852,12 @@ window.LOYALTY_DATA = {
           "label": "Admin Portal",
           "value": "",
           "type": "unknown"
+        },
+        {
+          "key": "b2b",
+          "label": "B2B Portal",
+          "value": "No plan",
+          "type": "no-plan"
         }
       ],
       "demo": "",
@@ -1651,8 +1869,8 @@ window.LOYALTY_DATA = {
       "level": "L4",
       "series": "User Engagement",
       "seriesRaw": "L4:User Engagement",
-      "sku": "AI Trip Planner",
-      "description": "",
+      "sku": "AI Trip Assistant",
+      "description": "Full-journey AI companion. Covering the entire travel lifecycle — pre-trip (itinerary planning, benefit reminders), in-trip (real-time flight updates, airport navigation, disruption alerts), and post-trip (expense summaries, experience feedback). It replaces traditional menu-driven interfaces with conversational interaction, allowing travelers to manage everything they need as naturally as chatting with a friend.",
       "playbook": "",
       "playbookLinks": [],
       "support": [
@@ -1683,6 +1901,63 @@ window.LOYALTY_DATA = {
         {
           "key": "admin",
           "label": "Admin Portal",
+          "value": "",
+          "type": "unknown"
+        },
+        {
+          "key": "b2b",
+          "label": "B2B Portal",
+          "value": "No plan",
+          "type": "no-plan"
+        }
+      ],
+      "demo": "",
+      "case": ""
+    },
+    {
+      "id": "row-39",
+      "row": 39,
+      "level": "L4",
+      "series": "User Engagement",
+      "seriesRaw": "L4:User Engagement",
+      "sku": "Digital Concierge",
+      "description": "AI-powered service hub for the airport experience. Aggregates all available airport resources — lounges, fast-track, chauffeur, F&B, retail, and more — and uses natural language understanding to interpret traveler needs, then intelligently recommends and orchestrates services. Delivers hyper-personalized, \"one traveler, one journey\" experiences. This is fundamentally the L4-layer AI service front-end.",
+      "playbook": "",
+      "playbookLinks": [],
+      "support": [
+        {
+          "key": "app",
+          "label": "Dragonpass App",
+          "value": "",
+          "type": "unknown"
+        },
+        {
+          "key": "h5",
+          "label": "White label H5",
+          "value": "",
+          "type": "unknown"
+        },
+        {
+          "key": "web",
+          "label": "White label Web",
+          "value": "",
+          "type": "unknown"
+        },
+        {
+          "key": "api",
+          "label": "Generic API",
+          "value": "",
+          "type": "unknown"
+        },
+        {
+          "key": "admin",
+          "label": "Admin Portal",
+          "value": "",
+          "type": "unknown"
+        },
+        {
+          "key": "b2b",
+          "label": "B2B Portal",
           "value": "",
           "type": "unknown"
         }
