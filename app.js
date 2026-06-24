@@ -62,7 +62,7 @@ const i18n = {
     },
     channel: {
       app: "Dragonpass App",
-      h5: "白标 H5",
+      h5: "白标 H5/SDK",
       web: "白标 Web",
       api: "通用 API",
       admin: "Admin Portal",
@@ -70,7 +70,7 @@ const i18n = {
     },
     shortChannel: {
       app: "DP App",
-      h5: "白标 H5",
+      h5: "H5/SDK",
       web: "白标 Web",
       api: "API",
       admin: "Admin",
@@ -145,7 +145,7 @@ const i18n = {
     },
     channel: {
       app: "Dragonpass App",
-      h5: "White label H5",
+      h5: "White lable H5/SDK",
       web: "White label Web",
       api: "Generic API",
       admin: "Admin Portal",
@@ -153,7 +153,7 @@ const i18n = {
     },
     shortChannel: {
       app: "DP App",
-      h5: "WL H5",
+      h5: "H5/SDK",
       web: "WL Web",
       api: "API",
       admin: "Admin",

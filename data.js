@@ -35,7 +35,7 @@ window.LOYALTY_DATA = {
     },
     {
       "key": "h5",
-      "label": "White label H5"
+      "label": "White lable H5/SDK"
     },
     {
       "key": "web",
@@ -74,7 +74,7 @@ window.LOYALTY_DATA = {
         },
         {
           "key": "h5",
-          "label": "White label H5",
+          "label": "White lable H5/SDK",
           "value": "Y",
           "type": "supported"
         },
@@ -125,7 +125,7 @@ window.LOYALTY_DATA = {
         },
         {
           "key": "h5",
-          "label": "White label H5",
+          "label": "White lable H5/SDK",
           "value": "Y",
           "type": "supported"
         },
@@ -176,7 +176,7 @@ window.LOYALTY_DATA = {
         },
         {
           "key": "h5",
-          "label": "White label H5",
+          "label": "White lable H5/SDK",
           "value": "Y",
           "type": "supported"
         },
@@ -227,7 +227,7 @@ window.LOYALTY_DATA = {
         },
         {
           "key": "h5",
-          "label": "White label H5",
+          "label": "White lable H5/SDK",
           "value": "No plan",
           "type": "no-plan"
         },
@@ -278,7 +278,7 @@ window.LOYALTY_DATA = {
         },
         {
           "key": "h5",
-          "label": "White label H5",
+          "label": "White lable H5/SDK",
           "value": "No plan",
           "type": "no-plan"
         },
@@ -329,7 +329,7 @@ window.LOYALTY_DATA = {
         },
         {
           "key": "h5",
-          "label": "White label H5",
+          "label": "White lable H5/SDK",
           "value": "Y",
           "type": "supported"
         },
@@ -380,7 +380,7 @@ window.LOYALTY_DATA = {
         },
         {
           "key": "h5",
-          "label": "White label H5",
+          "label": "White lable H5/SDK",
           "value": "2026Q3",
           "type": "planned"
         },
@@ -431,7 +431,7 @@ window.LOYALTY_DATA = {
         },
         {
           "key": "h5",
-          "label": "White label H5",
+          "label": "White lable H5/SDK",
           "value": "2026Q3",
           "type": "planned"
         },
@@ -482,7 +482,7 @@ window.LOYALTY_DATA = {
         },
         {
           "key": "h5",
-          "label": "White label H5",
+          "label": "White lable H5/SDK",
           "value": "2026Q3",
           "type": "planned"
         },
@@ -533,7 +533,7 @@ window.LOYALTY_DATA = {
         },
         {
           "key": "h5",
-          "label": "White label H5",
+          "label": "White lable H5/SDK",
           "value": "No plan",
           "type": "no-plan"
         },
@@ -584,7 +584,7 @@ window.LOYALTY_DATA = {
         },
         {
           "key": "h5",
-          "label": "White label H5",
+          "label": "White lable H5/SDK",
           "value": "Y",
           "type": "supported"
         },
@@ -635,7 +635,7 @@ window.LOYALTY_DATA = {
         },
         {
           "key": "h5",
-          "label": "White label H5",
+          "label": "White lable H5/SDK",
           "value": "2026Q3",
           "type": "planned"
         },
@@ -686,7 +686,7 @@ window.LOYALTY_DATA = {
         },
         {
           "key": "h5",
-          "label": "White label H5",
+          "label": "White lable H5/SDK",
           "value": "2026Q3",
           "type": "planned"
         },
@@ -737,7 +737,7 @@ window.LOYALTY_DATA = {
         },
         {
           "key": "h5",
-          "label": "White label H5",
+          "label": "White lable H5/SDK",
           "value": "2026Q3",
           "type": "planned"
         },
@@ -788,7 +788,7 @@ window.LOYALTY_DATA = {
         },
         {
           "key": "h5",
-          "label": "White label H5",
+          "label": "White lable H5/SDK",
           "value": "2026Q3",
           "type": "planned"
         },
@@ -839,7 +839,7 @@ window.LOYALTY_DATA = {
         },
         {
           "key": "h5",
-          "label": "White label H5",
+          "label": "White lable H5/SDK",
           "value": "No plan",
           "type": "no-plan"
         },
@@ -890,7 +890,7 @@ window.LOYALTY_DATA = {
         },
         {
           "key": "h5",
-          "label": "White label H5",
+          "label": "White lable H5/SDK",
           "value": "No plan",
           "type": "no-plan"
         },
@@ -941,7 +941,7 @@ window.LOYALTY_DATA = {
         },
         {
           "key": "h5",
-          "label": "White label H5",
+          "label": "White lable H5/SDK",
           "value": "Y",
           "type": "supported"
         },
@@ -995,7 +995,7 @@ window.LOYALTY_DATA = {
         },
         {
           "key": "h5",
-          "label": "White label H5",
+          "label": "White lable H5/SDK",
           "value": "Y",
           "type": "supported"
         },
@@ -1049,7 +1049,7 @@ window.LOYALTY_DATA = {
         },
         {
           "key": "h5",
-          "label": "White label H5",
+          "label": "White lable H5/SDK",
           "value": "Y",
           "type": "supported"
         },
@@ -1103,7 +1103,7 @@ window.LOYALTY_DATA = {
         },
         {
           "key": "h5",
-          "label": "White label H5",
+          "label": "White lable H5/SDK",
           "value": "Y",
           "type": "supported"
         },
@@ -1157,7 +1157,7 @@ window.LOYALTY_DATA = {
         },
         {
           "key": "h5",
-          "label": "White label H5",
+          "label": "White lable H5/SDK",
           "value": "",
           "type": "unknown"
         },
@@ -1211,7 +1211,7 @@ window.LOYALTY_DATA = {
         },
         {
           "key": "h5",
-          "label": "White label H5",
+          "label": "White lable H5/SDK",
           "value": "",
           "type": "unknown"
         },
@@ -1264,7 +1264,7 @@ window.LOYALTY_DATA = {
         },
         {
           "key": "h5",
-          "label": "White label H5",
+          "label": "White lable H5/SDK",
           "value": "",
           "type": "unknown"
         },
@@ -1317,7 +1317,7 @@ window.LOYALTY_DATA = {
         },
         {
           "key": "h5",
-          "label": "White label H5",
+          "label": "White lable H5/SDK",
           "value": "",
           "type": "unknown"
         },
@@ -1370,7 +1370,7 @@ window.LOYALTY_DATA = {
         },
         {
           "key": "h5",
-          "label": "White label H5",
+          "label": "White lable H5/SDK",
           "value": "Y",
           "type": "supported"
         },
@@ -1421,7 +1421,7 @@ window.LOYALTY_DATA = {
         },
         {
           "key": "h5",
-          "label": "White label H5",
+          "label": "White lable H5/SDK",
           "value": "",
           "type": "unknown"
         },
@@ -1474,7 +1474,7 @@ window.LOYALTY_DATA = {
         },
         {
           "key": "h5",
-          "label": "White label H5",
+          "label": "White lable H5/SDK",
           "value": "",
           "type": "unknown"
         },
@@ -1525,7 +1525,7 @@ window.LOYALTY_DATA = {
         },
         {
           "key": "h5",
-          "label": "White label H5",
+          "label": "White lable H5/SDK",
           "value": "2026Q3",
           "type": "planned"
         },
@@ -1576,7 +1576,7 @@ window.LOYALTY_DATA = {
         },
         {
           "key": "h5",
-          "label": "White label H5",
+          "label": "White lable H5/SDK",
           "value": "2026Q3",
           "type": "planned"
         },
@@ -1627,7 +1627,7 @@ window.LOYALTY_DATA = {
         },
         {
           "key": "h5",
-          "label": "White label H5",
+          "label": "White lable H5/SDK",
           "value": "2027Q4",
           "type": "planned"
         },
@@ -1678,7 +1678,7 @@ window.LOYALTY_DATA = {
         },
         {
           "key": "h5",
-          "label": "White label H5",
+          "label": "White lable H5/SDK",
           "value": "",
           "type": "unknown"
         },
@@ -1729,7 +1729,7 @@ window.LOYALTY_DATA = {
         },
         {
           "key": "h5",
-          "label": "White label H5",
+          "label": "White lable H5/SDK",
           "value": "",
           "type": "unknown"
         },
@@ -1780,7 +1780,7 @@ window.LOYALTY_DATA = {
         },
         {
           "key": "h5",
-          "label": "White label H5",
+          "label": "White lable H5/SDK",
           "value": "",
           "type": "unknown"
         },
@@ -1831,7 +1831,7 @@ window.LOYALTY_DATA = {
         },
         {
           "key": "h5",
-          "label": "White label H5",
+          "label": "White lable H5/SDK",
           "value": "",
           "type": "unknown"
         },
@@ -1882,7 +1882,7 @@ window.LOYALTY_DATA = {
         },
         {
           "key": "h5",
-          "label": "White label H5",
+          "label": "White lable H5/SDK",
           "value": "",
           "type": "unknown"
         },
@@ -1933,7 +1933,7 @@ window.LOYALTY_DATA = {
         },
         {
           "key": "h5",
-          "label": "White label H5",
+          "label": "White lable H5/SDK",
           "value": "",
           "type": "unknown"
         },
